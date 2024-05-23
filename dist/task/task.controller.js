@@ -38,7 +38,7 @@ let TaskController = class TaskController {
         }
         const tasks = await this.taskService.getUserTasks(userId);
         if (tasks.length === 0) {
-            throw new common_1.NotFoundException('No tasks found');
+            throw new common_1.NotFoundException('Aucune tâche trouvée');
         }
         return tasks;
     }
