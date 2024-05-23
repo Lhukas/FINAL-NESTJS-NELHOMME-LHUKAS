@@ -15,13 +15,6 @@ donc voila faut juste mettre le dépot sur votre machine
 choisi postrgres avec Prisma
 
 
-- Il y a juste 2 commande à faire pour prisma dans un terminal :
-- - `npx prisma migrate dev --name init` : Crée et applique une nouvelle migration basée sur le schéma Prisma actuel et l'appelle "init"
-- - `npx prisma migrate deploy` : Applique toutes les migrations en attente sur la base de données.
-
- Je suis vraiment désolé mais c'est prisma qui m'oblige. c'est la première fois que j'utilise prisma, j'ai cherché mais j'ai pas trouvé une manière de vous éviter de faire ces commandes. 
-
-
 ## 3ème étapes : Lancement des tests
 Vous pouvez lancé maintenant les tests avec cette commande : `npm run test:e2e:postgres`
 Normalement j'ai bien travaillé tous les tests passent les doigts dans le pif lol.
